@@ -1,0 +1,79 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#Primeira {
+background-image: url(ARTES/luxa.org-opacity-changed-._SaveClip.App_470973024_1264544374667473_2328043141475662118_n.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 100vh;
+margin: 0;
+padding: 0;
+display: block;
+}
+
+
+
+#Segunda{
+    background-color: #FFC1E3;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;    
+    height: 100vh;
+    margin: 0;
+    padding-top: 0;
+    display: none;
+
+}
+
+
+#LOGO {
+       
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -230px;
+    display: block;
+
+}
+
+#SITE {
+
+    background-color:transparent;
+    border: none;
+    color: #ff69b4;
+    padding: 10px 30px;
+    display: block;
+    font-size: 2rem;
+    cursor:pointer;
+    border-radius: 10px;
+    border-color: #ff69b4;
+    margin-left: auto;
+    margin-right: auto;
+   
+    transition: background-color 0.5s ease;
+}
+
+#SITE:hover {
+
+    background-color: #FFC1E3;
+
+
+}
+
+#DESCRICAO {
+    
+    font-family: 'Sakitu';
+    font-style: oblique;
+    font-size: 8.5rem;
+    color: #ff69b4; 
+    text-align: center;
+    margin-bottom: -0.5px;
+}
+
+@font-face {
+    font-family: 'Sakitu';
+    src: url('Sakitu\ Baelah\ Clean.otf');
+}
